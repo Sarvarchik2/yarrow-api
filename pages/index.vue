@@ -136,7 +136,7 @@
    <section class="yarrow-contact">
      <h2>Есть вопросы?</h2>
      <p>Оставьте ваши контакты нам, и мы свяжемся с вами</p>
-     <form class="yarrow-contact-form">
+     <form class="yarrow-contact-form container">
        <div class="yarrow-contact-form-top">
          <div class="yarrow-contact-form-top-left">
            <label >
@@ -156,21 +156,23 @@
              <input type="number" placeholder="+998(xx)xx-xx-xx">
            </label>
            <label >
-             Имя*
-             <input type="text" placeholder="Имя*">
+             Выберите продукт
+             <input type="text" >
            </label>
            <label >
-             Имя*
-             <input type="text" placeholder="Имя*">
+             Ващ вопрос
+             <textarea  placeholder="Напишите что хотите узнать"></textarea>
            </label>
-           <label >
-             Имя*
-             <input type="text" placeholder="Имя*">
-           </label>
+          <button>Отправить</button>
          </div>
-         <div class="yarrow-contact-form-top-right"></div>
+         <div class="yarrow-contact-form-top-right">
+           <img src="@/assets/mapc.svg" alt="map">
+         </div>
        </div>
-       <div class="yarrow-contact-form-bottom"></div>
+       <div class="yarrow-contact-form-bottom">
+         <NuxtLink>Телефон: +998 99 123 34 56</NuxtLink>
+         <NuxtLink>Почта: yarrow@gmail.com</NuxtLink>
+       </div>
      </form>
    </section>
 
