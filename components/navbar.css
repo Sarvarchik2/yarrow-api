@@ -1,8 +1,10 @@
+
 .navbar{
     width: 96%;
     display: flex;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     margin: 15px auto;
+
     border-radius: 50px;
     position: relative;
     height: 100px;
@@ -13,6 +15,7 @@
 .logo{
     width: 230px;
     height: 60px;
+    text-decoration: none;
 }
 .logo img{
     width: 100%;
@@ -46,6 +49,7 @@
 .navbar-list > li > a{
     color: #fff;
     text-decoration: none;
+    font-family: "Manrope", sans-serif;
     font-size: 24px;
 }
 .navbar-right{
@@ -58,7 +62,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius:50px;
     padding: 10px 20px;
 }
@@ -97,4 +101,38 @@
 
 .dropdown-list li:hover {
     background-color: #f0f0f0;
+}
+.menu-burger{
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .navbar-list > li > a{
+        font-size: 18px;
+    }
+    .logo {
+        width: 182px;
+        height: 49px;
+        text-decoration: none;
+    }
+}
+@media (max-width: 769px) {
+    .navbar-list{
+        display: none;
+    }
+    .navbar-right a{
+        display:none;
+    }
+    .logo {
+        width: 144px;
+        height: 42px;
+        text-decoration: none;
+    }
+    .navbar{
+        height: 80px;
+    }
+    .menu-burger{
+        display: block;
+        width: 50px;
+    }
 }

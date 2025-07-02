@@ -18,9 +18,16 @@ body{
 
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+  font-family: "Manrope", sans-serif;
+}
 *{
   box-sizing: border-box;
 
+}
+.yarrow-api{
+  overflow-x: hidden;
 }
 .elipse{
   position: absolute;
@@ -55,7 +62,66 @@ body{
   left: 95%;
   z-index: -1;
 }
+.elipse6 {
+  top: 50%;
+  left: 10%;
+  z-index: -1;
+}
+.elipse7 {
+  top: 70%;
+  left: 70%;
+  z-index: -1;
+}
+.elipse8 {
+  top: 0%;
+  left: -10%;
+  z-index: -1;
+}
+.elipse9 {
+  top: 70%;
+  left: 80%;
+  z-index: -1;
+}
+.elipse10 {
+  top: 3%;
+  left: -15%;
+  z-index: -1;
+}
+.elipse11 {
+  top: 40%;
+  left: 85%;
+  z-index: -1;
+}
+.elipse12 {
+  top: 3%;
+  left: -15%;
+  z-index: -1;
+}
+.elipse13 {
+  top: 70%;
+  left: 85%;
+  z-index: -1;
+}
+.elipse14 {
+  top: 40%;
+  left: 30%;
+  z-index: -1;
+  scale: 1.5;
 
+}
+.elipse15 {
+  top: 80%;
+  left: 15%;
+  z-index: -1;
+  scale: 1.5;
+
+}
+.elipse16 {
+  top: 75%;
+  left: 30%;
+  z-index: -1;
+  scale: 1.5;
+}
 .container {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);

@@ -27,6 +27,10 @@
      </div>
    </section>
    <section class="yarrow-partners">
+     <img class="elipse elipse6" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse7" src="@/assets/elipse.png" alt="elipse">
+
+     <img src="@/assets/partnersline.svg" alt="partnersline" class="yarrow-partnersline">
      <h2>Разработано в <span>Yarrow</span></h2>
      <p>Yarrow — инновационное навигационное приложение из Узбекистана с точными картами, данными о пробках в реальном времени и уникальными маршрутами.</p>
 
@@ -104,6 +108,9 @@
    </section>
 
    <section class="yarrow-facilities">
+     <img class="elipse elipse8" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse9" src="@/assets/elipse.png" alt="elipse">
+     <img src="@/assets/facilitiesline.svg" class="yarrow-facilities-line" alt="facilitiesline">
      <h2>Для кого <span>Yarrow</span></h2>
      <p>От отображения филиалов и оформления заказов на сайте до построения удобных маршрутов</p>
 
@@ -134,6 +141,8 @@
    </section>
 
    <section class="yarrow-contact">
+     <img class="elipse elipse10" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse11" src="@/assets/elipse.png" alt="elipse">
      <h2>Есть вопросы?</h2>
      <p>Оставьте ваши контакты нам, и мы свяжемся с вами</p>
      <form class="yarrow-contact-form container">
@@ -176,12 +185,45 @@
      </form>
    </section>
 
+   <section class="yarrow-awwards">
+     <img class="elipse elipse12" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse13" src="@/assets/elipse.png" alt="elipse">
+     <img class="yarrow-awwards-line" src="@/assets/awwardsline.svg" alt="yarrow-awwards">
+     <h2>Данные которые помогут <br> вам в развитии бизнеса <br></br> и территории</h2>
+     <div class="yarrow-awwards-wrapper">
+       <div class="yarrow-awwards-item">
+         <h3>20+ млн</h3>
+         <span>Активных пользователей</span>
+       </div>
+       <div class="yarrow-awwards-item">
+         <h3>50+ млн</h3>
+         <span>Объектов на карте</span>
+       </div>
+       <div class="yarrow-awwards-item">
+         <h3>3+ млн</h3>
+         <span>Организаций в базе</span>
+       </div>
+     </div>
+   </section>
+
+   <section class="yarrow-app container">
+     <img class="elipse elipse14" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse15" src="@/assets/elipse.png" alt="elipse">
+     <img class="elipse elipse16" src="@/assets/elipse.png" alt="elipse">
+     <img src="@/assets/roudto.svg" alt="roudto" class="yarrow-roudto">
+     <h2>Начните пользоваться <span>Yarrow</span> уже сегодня!</h2>
+     <h3>Скачайте приложение и убедитесь сами, насколько легко и удобно передвигаться по городу вместе с <span>Yarrow</span></h3>
+     <NuxtLink>Скачать приложение</NuxtLink>
+     <img class="yarrow-app-img" src="@/assets/app.png"  alt="app" />
+     <img class="apparrow" src="@/assets/apparrow.svg" alt="apparrow">
+   </section>
+
  </div>
 </template>
 
 <style scoped>
 
-@import "index.css";
+@import "./index.css";
 </style>
 <script setup lang="ts">
 </script>

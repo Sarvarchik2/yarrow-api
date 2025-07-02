@@ -2,16 +2,14 @@
   <div class="navbar">
     <img class="elipse elipse1" src="@/assets/elipse.png" alt="elipse">
 
-    <div class="logo">
+    <NuxtLink to="/" class="logo">
       <img src="@/assets/logo.svg" alt="yarrow" />
-    </div>
+    </NuxtLink>
 
     <ul class="navbar-list">
-      <li><NuxtLink to="/about">О нас</NuxtLink></li>
-      <li><NuxtLink to="/cases">Кейсы</NuxtLink></li>
+      <li><NuxtLink to="/works">Кейсы</NuxtLink></li>
       <li><NuxtLink to="/products">Продукты</NuxtLink></li>
-      <li><NuxtLink to="/contacts">Контакты</NuxtLink></li>
-      <li><NuxtLink to="/partners">Для партнеров</NuxtLink></li>
+      <li><NuxtLink to="/faq">Контакты</NuxtLink></li>
     </ul>
 
     <div class="navbar-right">
@@ -25,6 +23,7 @@
         </ul>
       </div>
       <NuxtLink to="/login">Войти</NuxtLink>
+      <img class="menu-burger" src="@/assets/menu.png" alt="menu">
     </div>
   </div>
 </template>

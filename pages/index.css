@@ -132,9 +132,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 margin-top: 150px;}
 
-
+.yarrow-partnersline{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
 .yarrow-partners p{
     color: #898989;
     text-align: center;
@@ -164,6 +171,8 @@ margin-top: 150px;}
     padding: 20px;
     border-radius: 20px;
     border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(4px);
 }
 .yarrow-partners-item span{
     color: #898989;
@@ -220,6 +229,14 @@ margin-top: 150px;}
     flex-direction: column;
     align-items: center;
     margin-top: 150px;
+    position: relative;
+}
+.yarrow-facilities-line{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 0;
 }
 .yarrow-facilities p{
     color: #898989;
@@ -253,11 +270,14 @@ margin-top: 150px;}
     padding: 20px 20px;
     width: 30%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(4px);
 }
 .yarrow-contact{
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
     margin-top: 150px;
     align-items: center;
 }
@@ -373,4 +393,295 @@ margin-top: 150px;}
     color: #000000;
     background-color: #fff;
 
+}
+.yarrow-awwards{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.yarrow-awwards h2{
+    font-size: 64px;
+    text-align: end;
+}
+.yarrow-awwards-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yarrow-awwards-item{
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+}
+.yarrow-awwards-item h3{
+    font-size: 64px;
+    margin: 0;
+    width: 100%;
+    text-align: start;
+
+}
+.yarrow-awwards-item span{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 10px;
+}
+.yarrow-awwards-line{
+    width: 100%;
+    position: absolute;
+
+    top: 30%;
+    left: 0;
+}
+.yarrow-app{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+position: relative;
+}
+.yarrow-roudto{
+    position: absolute;
+    bottom: 0;
+    left: -10%;
+}
+.yarrow-app h2{
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+}
+.yarrow-app h2 span{
+    color: #FE6D00;
+}
+
+.yarrow-app h3{
+    font-size: 48px;
+    text-align: center;
+margin: 0;
+}
+.yarrow-app h3 span{
+    color: #FE6D00;
+}
+.yarrow-app a{
+    color: #Fff;
+    text-decoration: none;
+
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.yarrow-app a:hover{
+    color: #000000;
+    background-color: #fff;
+
+}
+.yarrow-app-img{
+    width: 70%;
+    margin-top: 100px;
+
+}
+.apparrow{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+z-index: -1;
+}
+
+@media (max-width: 1441px) {
+    .header h1{
+        font-size: 54px;
+    }
+    .header a{
+        font-size: 27px;
+        padding: 15px 110px;
+    }
+    .header-content p{
+        font-size: 43px;
+        margin-top: 120px;
+    }
+
+
+    .yarrow-api-content h2{
+        font-size: 54px;
+    }
+    .yarrow-api-content a{
+        font-size: 27px;
+        padding: 15px 110px;
+    }
+    .yarrow-partners-item-text h3{
+        font-size: 18px;
+    }
+    .yarrow-partners-item h2{
+        font-size: 30px;
+    }
+    .yarrow-partners a{
+        font-size: 27px;
+        padding: 15px 110px;
+    }
+    .yarrow-facilities h2{
+        font-size: 54px;
+    }
+    .yarrow-facilities p{
+        font-size: 24px;
+    }
+    .yarrow-contact h2{
+        font-size: 54px;
+    }
+    .yarrow-awwards h2{
+        font-size: 50px;
+    }
+    .yarrow-awwards-item span{
+        font-size: 22px;
+    }
+    .yarrow-awwards-item h3{
+        font-size: 50px;
+    }
+    .yarrow-app h2{
+        font-size: 50px;
+    }
+    .yarrow-app h3{
+        font-size: 36px;
+    }
+    .yarrow-app a{
+        font-size: 25px;
+    }
+    .yarrow-contact-form-top-left label{
+        font-size: 22px;
+    }
+    .yarrow-facilities-item{
+        font-size: 18px;
+    }
+    .yarrow-partners h2{
+        font-size: 54px;
+    }
+    .yarrow-partners-item h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .header h1{
+        font-size: 44px;
+        text-align: center;
+        width: 70%;
+    }
+    .header a {
+        font-size: 24px;
+        padding: 15px 98px;
+    }
+    .header-content p {
+        font-size: 29px;
+        margin-top: 85px;
+    }
+    .yarrow-api-content a[data-v-02281a80] {
+        font-size: 20px;
+        padding: 15px 94px;
+    }
+    .yarrow-api-content h2{
+        font-size: 44px;
+    }
+    .yarrow-api-content h2{
+        font-size: 33px;
+    }
+    .yarrow-partners h2{
+        font-size: 44px;
+    }
+    .yarrow-partners p{
+        font-size: 18px;
+    }
+    .yarrow-partners-item h2{
+        font-size: 20px;
+    }
+    .yarrow-partners-item-text h3{
+        font-size: 12px;
+    }
+    .yarrow-partners a {
+        font-size: 22px;
+        padding: 15px 90px;
+    }
+    .yarrow-facilities h2{
+        font-size: 44px;
+    }
+    .yarrow-facilities p{
+        font-size: 20px;
+    }
+    .yarrow-contact h2{
+        font-size: 44px;
+    }
+    .yarrow-awwards h2{
+        font-size: 35px;
+    }
+    .yarrow-awwards-item span{
+        font-size: 18px;
+    }
+    .yarrow-app h2{
+        font-size: 40px;
+    }
+    .yarrow-app h3{
+        font-size: 23px;
+    }
+    .yarrow-app a{
+        font-size: 20px;
+    }
+    .footer-img {
+        width: 320px;
+    }
+    }
+
+@media (max-width: 769px) {
+    .yarrow-partners-item{
+        width: 100%;
+    }
+    .yarrow-facilities-item{
+        width: 48%;
+    }
+    .yarrow-contact-form-top{
+        flex-direction: column;
+    }
+    .yarrow-contact-form-top-left{
+        width: 100%;
+    }
+    .yarrow-contact-form-top-right{
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .yarrow-contact-form-bottom{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .yarrow-contact-form-bottom a{
+        width: 100%;
+    }
+    .yarrow-awwards-wrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .yarrow-awwards-item{
+        width: 48%;
+    }
+    .yarrow-app-img{
+        width: 100%;
+    }
+    .yarrow-roudto{
+        width: 80px;
+    }
 }
