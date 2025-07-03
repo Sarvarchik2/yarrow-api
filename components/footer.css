@@ -66,3 +66,12 @@ margin-top: 30px;
 .footer-bottom img{
     width: 100%;
 }
+@media (max-width: 769px) {
+    .footer-img{
+        width: 100%;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+
+}

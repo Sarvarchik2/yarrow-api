@@ -146,8 +146,15 @@ function toggle(index) {
   padding: 20px;
   text-align: left;
 }
+@media (max-width: 1025px) {
+  .faq-question span{
+    font-size: 20px;
+  }
+  .yarrow-contact-form-top-left label{
+    text-align: start;
+  }
+}
 
-/* Адаптив */
 @media (max-width: 768px) {
   .faq-title {
     font-size: 28px;
@@ -166,5 +173,22 @@ function toggle(index) {
     font-size: 14px;
     padding: 15px;
   }
+
+}
+
+@media (max-width: 620px) {
+  .faq-question span {
+    font-size: 18px;
+  }
+  .faq-question img{
+    width: 30px;
+  }
+  .yarrow-contact h2{
+    font-size: 28px;
+  }
+  .faq-question span {
+    font-size: 15px;
+  }
+
 }
 </style>

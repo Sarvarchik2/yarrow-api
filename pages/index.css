@@ -23,7 +23,7 @@
     text-decoration: none;
     padding: 20px 150px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: max-content;
     text-align: center;
     font-weight: bold;
@@ -93,7 +93,7 @@
     text-decoration: none;
     padding: 20px 150px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: max-content;
     text-align: center;
     font-weight: bold;
@@ -116,7 +116,7 @@
     background: rgba(0, 0, 0, 0.13);
     backdrop-filter: blur(4px);
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     position: relative;
     padding: 20px;
     margin-top: 100px;
@@ -170,7 +170,7 @@ margin-top: 150px;}
     width: 48%;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     background: rgba(0, 0, 0, 0.16);
     backdrop-filter: blur(4px);
 }
@@ -195,7 +195,7 @@ margin-top: 150px;}
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 50px;
     padding: 5px 15px;
 }
@@ -208,7 +208,7 @@ margin-top: 150px;}
     text-decoration: none;
     padding: 20px 150px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: max-content;
     text-align: center;
     font-weight: bold;
@@ -265,7 +265,7 @@ margin-top: 150px;}
 .yarrow-facilities-item{
     font-size: 23px;
     margin: 0;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     padding: 20px 20px;
     width: 30%;
@@ -294,7 +294,7 @@ margin-top: 150px;}
     margin: 0;
 }
 .yarrow-contact-form{
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     padding: 30px;
     display: flex;
@@ -323,7 +323,7 @@ margin-top: 150px;}
 .yarrow-contact-form-top-left label input{
     color: #fff;
     font-size: 22px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     width: 100%;
     padding: 15px;
@@ -336,7 +336,7 @@ margin-top: 150px;}
 .yarrow-contact-form-top-left label textarea{
     color: #fff;
     font-size: 22px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     width: 100%;
     padding: 15px;
@@ -351,7 +351,7 @@ margin-top: 150px;}
     justify-content: center;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
     font-weight: bold;
     font-size: 20px;
@@ -382,7 +382,7 @@ margin-top: 150px;}
     text-decoration: none;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: 49%;
     transition: all 0.4s ease;
     cursor: pointer;
@@ -413,7 +413,7 @@ margin-top: 150px;}
     width: 30%;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,7 +431,7 @@ margin-top: 150px;}
 .yarrow-awwards-item span{
     text-align: center;
     width: 100%;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 20px;
     font-size: 32px;
     padding: 10px;
@@ -479,7 +479,7 @@ margin: 0;
 
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     font-weight: bold;
     font-size: 32px;
     transition: 0.4s ease;
@@ -683,5 +683,65 @@ z-index: -1;
     }
     .yarrow-roudto{
         width: 80px;
+    }
+    .yarrow-contact
+    {
+        padding: 15px;
+    }
+    .navbar{
+        border: none;
+    }
+    .yarrow-api-content{
+        padding: 0 15px ;
+    }
+}
+
+@media (max-width: 620px) {
+    .yarrow-awwards-item{
+        width: 100%;
+    }
+    .yarrow-facilities-item{
+        width: 100%;
+    }
+    .header-content-img-line{
+        display: none;
+    }
+    .header h1 {
+        font-size: 31px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .header-content-img {
+        width: 100%;
+    }
+    .header-content p{
+        display: none;
+    }
+    .header-content-img-point {
+        position: absolute;
+        top: 434px;
+        left: 0;
+        width: 100px;
+    }
+    .header a {
+        width: 94%;
+    }
+    .yarrow-api-content a{
+        width: 100%;
+    }
+    .yarrow-contact-form{
+        padding: 20px;
+    }
+    .yarrow-contact-form-top-left label input{
+        font-size: 18px;
+    }
+    .yarrow-contact-form-top-left label textarea{
+        font-size: 18px;
+    }
+    .yarrow-contact-form-bottom a{
+        font-size: 18px;
+    }
+    .header a{
+        font-size: 18px;
     }
 }

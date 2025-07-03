@@ -210,4 +210,39 @@ const buttons = ['Карты', 'Навигация', 'Геолокация', 'П
 .api-grid-navigation{
   justify-content: center;
 }
+@media (max-width: 1025px) {
+  .api-title {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  .api-buttons button {
+    font-size: 18px;
+  }
+  .api-subtitle{
+    font-size: 44px;
+  }
+  .api-card .text p {
+    font-size: 17px;
+  }
+  .api-card .text h4 {
+    font-size: 30px;
+  }
+
+  
+}
+@media (max-width: 769px) {
+  .api-buttons[data-v-036107a0] {
+    width: 100%;
+    flex-wrap: wrap;
+    border: none;
+  }
+  .api-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .api-card{
+    width: 100%;
+  }
+}
 </style>
