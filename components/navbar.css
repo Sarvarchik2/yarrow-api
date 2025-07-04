@@ -76,6 +76,12 @@
     align-items: center;
 
 }
+.language-dropdown-main{
+    display: flex;
+}
+.language-dropdown-mobile{
+    display: none;
+}
 .language-dropdown img{
     width: 30px;
     height: 30px;
@@ -117,6 +123,12 @@
     }
 }
 @media (max-width: 769px) {
+    .language-dropdown-main{
+        display: none;
+    }
+    .language-dropdown-mobile{
+        display: block;
+    }
     .navbar-list{
         display: none;
     }
