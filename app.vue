@@ -8,6 +8,7 @@
 
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 body{
   margin: 0;
   padding: 0;
@@ -18,7 +19,6 @@ body{
 
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *{
   font-family: "Manrope", sans-serif;
 }
